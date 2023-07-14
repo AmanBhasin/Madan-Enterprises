@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sales Management Application</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>MADAN ENTERPRISES</h1>
+      <button id="totalBtn">Total</button>
+    </nav>
+  </header>
+
+  <main>
+    <div class="new-entry">
+      <button id="dropdownBtn">New Entry</button>
+      <form id="entryForm">
+        <div class="form-group">
+          <label for="weight">Weight/Quantity:</label>
+          <input type="text" id="weight" required>
+        </div>
+        <div class="form-group">
+          <label for="rate">Rate:</label>
+          <input type="text" id="rate" required>
+        </div>
+        <div class="form-group">
+          <label for="product">Product:</label>
+          <input type="text" id="product">
+        </div>
+        <div class="form-group">
+          <label for="customer">Customer:</label>
+          <input type="text" id="customer">
+        </div>
+        <button type="submit">Add Entry</button>
+      </form>
+    </div>
+
+    <table id="entryTable">
+      <thead>
+        <tr>
+          <th>Weight/Quantity</th>
+          <th>Rate</th>
+          <th>Product</th>
+          <th>Amount</th>
+          <th>Customer</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Table rows will be dynamically added here -->
+      </tbody>
+    </table>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
