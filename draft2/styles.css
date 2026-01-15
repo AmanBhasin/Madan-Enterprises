@@ -5,7 +5,7 @@ body {
   }
   
   header {
-    background-color: #333;
+    background-color: #c885d4;
     color: #fff;
     padding: 10px;
   }
@@ -22,7 +22,7 @@ body {
   }
   
   nav button {
-    background-color: #4caf50;
+    background-color: #4f3758;
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -38,7 +38,7 @@ body {
   }
   
   .new-entry button {
-    background-color: #4caf50;
+    background-color: #4f3758;
     color: #fff;
     border: none;
     padding: 8px 16px;

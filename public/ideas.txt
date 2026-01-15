@@ -1,0 +1,2 @@
+think -> routing is done
+->react forms and many, understand while doing stuff, gain confidence, and code better
